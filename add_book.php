@@ -19,6 +19,8 @@ include("./dbConnect.php");
         // Execute the query and check if the insertion was successful
         if (mysqli_query($conn, $sql)) {
             echo "New book added successfully!";
+            header("Location: index.php?message=Book+added+successfully");
+            exit;
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
