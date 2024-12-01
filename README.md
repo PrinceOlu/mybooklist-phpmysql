@@ -1,1 +1,2 @@
 # mybooklist-phpmysql
+This project is a **Book Management System** that allows users to manage a collection of books through CRUD operations. Users can add, view, update, and delete books with details such as title, author, and type. Built with PHP and MySQL, the application ensures secure interactions using prepared statements and provides a responsive interface with Bootstrap. It includes features like redirecting after actions and displaying success messages, making it user-friendly and efficient for managing book records.
